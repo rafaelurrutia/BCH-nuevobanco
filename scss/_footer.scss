@@ -1,0 +1,176 @@
+#footer {
+    position: relative;
+    background-color: $footer-bg;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    .container {
+        @media #{$tablet} {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    @media #{$mobile-y-tablet} {
+        min-height: 310px;
+    }
+    @media #{$mobile} {
+        .container {
+            padding: 0px;
+            .col-md-12 {
+                padding: 0px;
+                position: relative;
+            }
+        }
+    }
+    .left-side {
+        float: left;
+        width: 52%;
+        padding-top: 57px;
+        @media #{$mobile-y-tablet} {
+            width: 100%;
+            padding-top: 35px;
+        }
+        @media #{$mobile} {
+            padding-top: 110px;
+            padding-left: 2.5%;
+            padding-right: 2.5%;
+        }
+        a {
+            float: left;
+        }
+        p {
+            font-family: 'Oxygen-Light';
+            color: $footer-p-co;
+            font-size: 13px;
+            line-height: 140%;
+            font-weight: 300;
+            @media #{$mobile-y-tablet} {
+                word-spacing: 1px;
+                text-align: justify
+            }
+        }
+    }
+    .right-side {
+        background-color: $footer-caja-banco-bg;
+        width: 40%;
+        height: 120px;
+        float: right;
+        padding: 67px 3% 10px 3.5%;
+        position: relative;
+        @media #{$desktop} and (max-width: 1200px) {
+            padding-left: 1%;
+            padding-right: 1%;
+        }
+        @media #{$mobile-y-tablet} {
+            width: 100%;
+            text-align: center;
+            padding: 23px 3% 10px 3%;
+            height: 75px;
+            margin-top: 40px;
+        }
+        @media #{$mobile} {
+            padding: 17px 6% 10px 6%;
+            height: 55px;
+            margin-top: 35px;
+            position: absolute;
+            width: 95%;
+            left: 2.5%;
+        }
+        a {
+            @media #{$mobile-y-tablet} {
+                display: inline-block;
+                margin-right: 45px;
+            }
+            @media #{$mobile} {
+                float: left;
+                margin-right: 0;
+            }
+        }
+        .iconos {
+            float: right;
+            @media #{$mobile-y-tablet} {
+                display: inline-block;
+                float: none;
+                position: relative;
+                left: -10px;
+                @media #{$mobile} {
+                    float: right;
+                    left: 0;
+                }
+            }
+        }
+        .iconos i {
+            color: white;
+            font-size: 27px;
+            margin-right: 21px;
+            @media #{$mobile} {
+                font-size: 22px;
+            }
+        }
+        .iconos i:last-of-type {
+            margin-right: 11px;
+        }
+        img,
+        img:after,
+        img::after {
+            content: url($footer-caja-banco-img-src);
+            @media #{$desktop} and (max-width: 1200px) {
+                max-width: 220px;
+            }
+            @media #{$mobile} {
+                max-width: 165px;
+            }
+        }
+    }
+    .circle-anchor-top {
+        background-color: $footer-bg;
+        width: 47px;
+        height: 47px;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        position: absolute;
+        top: -18px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        i {
+            color: white;
+            font-size: 30px;
+            position: relative;
+            top: 8px;
+            cursor: pointer;
+        }
+    }
+    .section-1,
+    .section-2 {
+        width: 100%;
+        display: inline-block;
+    }
+    .section-2 {
+        padding-top: 48px;
+        padding-bottom: 48px;
+        @media #{$mobile-y-tablet} {
+            padding-top: 5px;
+            padding-bottom: 36px;
+        }
+        p {
+            font-family: 'Oxygen-Light';
+            color: $footer-p-co;
+            font-size: 11px;
+            line-height: 140%;
+            font-weight: 300;
+            @media #{$mobile} {
+                font-family: 'RobotoLight';
+                text-align: justify;
+                padding-left: 2.5%;
+                padding-right: 2.5%;
+            }
+        }
+    }
+}

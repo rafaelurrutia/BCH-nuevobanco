@@ -1,0 +1,149 @@
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/* centro ayuda preguntas frecuentes */
+
+.panel-body {
+    padding: 22px;
+    @media #{$mobile} {
+        font-size: 12px;
+}
+}
+
+.panel-body p {
+    font-size: 13px;
+    margin-bottom: 18px;
+    @media #{$mobile} {
+        font-size: 12px;
+    }
+}
+
+.panel-title i {
+    float: right;
+    font-size: 6px;
+    margin-right: 5px;
+    position: relative;
+    top: 10px;
+}
+
+
+/* carusel */
+
+.indicador {
+    text-align: right;
+    margin-right: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+.carousel-indicators,
+.indicador-left,
+.indicador-right {
+    display: inline-block;
+}
+
+.carousel-indicators {
+    position: inherit;
+    bottom: inherit;
+    left: inherit;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 0;
+    margin: 0;
+    border-radius: 4px;
+    width: auto;
+}
+
+.carousel-indicators li {
+    display: inline;
+    font-family: 'Roboto';
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-indicators li.active {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-indicators li.active span,
+.carousel-indicators>li>span:hover {
+    background-color: $funcionalidades-paginacion-bg;
+    color: white;
+}
+
+.carousel-indicators>li>a,
+.carousel-indicators>li>span,
+.indicador-left>a,
+.indicador-left>span,
+.indicador-right>a,
+.indicador-right>span,
+a.left.carousel-control:visited,
+a.left.carousel-control:focus,
+a.right.carousel-control:visited,
+a.right.carousel-control:focus {
+    padding: 3px 8px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    position: relative;
+    float: none;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: $funcionalidades-paginacion-co;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: 0;
+    text-shadow: none;
+}
+
+a.left.carousel-control:hover,
+a.right.carousel-control:hover {
+    background-color: $funcionalidades-paginacion-bg;
+    color: white;
+}
+
+.carousel-control.left {
+    background-image: none;
+    padding: 3px 8px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    margin-left: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.carousel-control.right {
+    background-image: none;
+    padding: 3px 8px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 15%;
+    opacity: 1;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0);
+}

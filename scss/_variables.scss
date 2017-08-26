@@ -1,0 +1,444 @@
+/*
+
+0 - banco de chile
+1 - banco edwards
+2 - banco credichile
+
+*/
+
+$banco: '0';
+
+//GENERAL
+$h2-color: #244F85;
+$h3-color: white;
+$h4-color: #545E67;
+$h5-color: #545E67;
+$h6-faq-color: #4377B9; 
+$p-color: #666667;
+
+//MENU
+$menu-1-bg: #0A4486;
+$menu-1-bg: #355e8b;
+$menu-1-co: #B2BFCC;
+
+$navbar-bg: #19487b;
+$navbar-bg-transp: rgba(7, 64, 127, 0.8);
+$navbar-co: #FFFFFF;
+$navbar-active: #31B6E8;
+$navbar-img-src: "../img/logo-bancoChile.png";
+
+$navbar-img-toggle-src: "../img/menu.png";
+$menu-mobile: #e7e9ed;
+
+//VIDEO
+$playlistBanco: #0a3373;
+$playlistBanco-transp: rgba(10, 51, 115, 0.5);
+$playlistBanco-currentvideo: #31ade0;
+$playlistBanco-currentvideo-transp: rgba(49,173,224,0.5);
+$progress-container: #012464;
+$progress: #abd83f;
+
+//FUNCIONALIDADES
+$funcionalidades-caja-titulo-bg: #E8ECF5;
+$funcionalidades-boton-bg: #E99D31;
+$funcionalidades-paginacion-bg: #5785C1;
+$funcionalidades-paginacion-co: #337ab7;
+
+$box2-box-buton-img-src: "../img/seccion-consultasCuentasLineas-bch.png";
+$box3-box-buton-img-src: "../img/seccion-simulacionCreditoConsumo-bch.png";
+$box4-box-buton-img-src: "../img/seccion-consultasTarjetasCredito-bch.png";
+$box5-box-buton-img-src: "../img/seccion-inversiones-bch.png";
+$box6-box-buton-img-src: "../img/seccion-transferenciasFondos-bch.png";
+$box7-box-buton-img-src: "../img/seccion-miPerfil-bch.png";
+$box8-box-buton-img-src: "../img/seccion-pagosAvances-bch.png";
+
+//SEGURIDAD
+$seguridad-bg: #194d87;
+$seguridad-caja-titulo-bg: #053467;
+$seguridad-boton-bg: #148DD9;
+$seguridad-boton-co: #FFFFFF;
+$seguridad-protegete-co: #CBD8E6;
+
+$circle-tooltip-bg: #31B6E8;
+$circle-tooltip-bg-active: #B0CF4F;
+
+$img-movil-src: "../img/movil-bch.png";
+$img-imac-src: "../img/imac-bch.png";
+$img-tablet-src: "../img/tablet-bch.png";
+$img-notebook-src: "../img/notebook-bch.png";
+
+//CENTRO AYUDA
+$centro-ayuda-caja-titulo-bg: #8C9BB0;
+
+$centro-ayuda-contactanos-h6-co: #2163B8;
+$centro-ayuda-contactanos-span-co: #2163B8;
+$centro-ayuda-contactanos-ico-co: #2163B8;
+
+$centro-ayuda-fonobank-h6-co: #2163B8;
+$centro-ayuda-fonobank-span-co: #2163B8;
+$centro-ayuda-fonobank-ico-co: #2163B8;
+
+$centro-ayuda-twitter-h6-co: #55ABED;
+$centro-ayuda-twitter-span-co: #55ABED;
+$centro-ayuda-twitter-ico-co: #55ABED;
+
+$centro-ayuda-facebook-h6-co: #4B65A3;
+$centro-ayuda-facebook-span-co: #4B65A3;
+$centro-ayuda-facebook-ico-co: #4B65A3;
+
+$centro-ayuda-nav-sec-1-bg: #E1E1E7;
+$centro-ayuda-nav-sec-2-bg: #D9D9DF;
+$centro-ayuda-nav-co: #545E67;   
+
+$centro-ayuda-nav-sec-1-bg: #E1E1E7;
+$centro-ayuda-nav-sec-2-bg: #D9D9DF;
+$centro-ayuda-nav-sec-1-co: #545E67;  
+$centro-ayuda-nav-sec-2-co: #545E67;  
+
+$centro-ayuda-nav-sec-1-active-bg: #2163B8;
+$centro-ayuda-nav-sec-2-active-bg: #4376B9;
+$centro-ayuda-nav-active-co: #FFFFFF;
+
+$acordeon-bg: #E1E1E7;
+$acordeon-border-bg: #4B81C5;
+$acordeon-co: #545E67;
+$acordeon-active-co: #244F85;
+$acordeon-body-bg: #F0F0F1;  
+
+//FOOTER
+$footer-bg: #003771;
+$footer-co: #FFFFFF;
+$footer-p-co: #B2BFCC;
+$footer-caja-banco-bg: #0D498D;
+$footer-caja-banco-img-src: "../img/logo-bancoChile.png";
+
+// COLORES BANCO DE CHILE
+@if $banco == '0'{
+    
+    $h2-color: #244F85;
+    $h3-color: white;
+    $h4-color: #545E67;
+    $h5-color: #545E67;
+    $h6-faq-color: #4377B9; 
+    $p-color: #666667;
+    
+    $menu-1-bg: #0A4486;
+    $menu-1-bg: #355e8b;
+    $menu-1-co: #B2BFCC;
+    
+    $navbar-bg: rgba(7, 64, 127, 1);
+    $navbar-bg-transp: rgba(7, 64, 127, 0.8);
+    $navbar-co: #FFFFFF;
+    $navbar-active: #31B6E8;
+    $navbar-img-src: "../img/logo-bancoChile.png";
+    
+    $navbar-img-toggle-src: "../img/menu.png";
+    $menu-mobile: #e7e9ed;
+    
+    //VIDEO
+    $playlistBanco: #0a3373;
+    $playlistBanco-currentvideo: #31ade0;
+    $progress-container: #012464;
+    $progress: #abd83f;
+    
+    $playlistBanco-transp: rgba(10, 51, 115, 0.5);
+    $playlistBanco-currentvideo-transp: rgba(49,173,224,0.5);
+    
+    //FUNCIONALIDADES
+    $funcionalidades-caja-titulo-bg: #E8ECF5;
+    $funcionalidades-boton-bg: #E99D31;
+    $funcionalidades-paginacion-bg: #5785C1;
+    $funcionalidades-paginacion-co: #337ab7;
+    
+    $box2-box-buton-img-src: "../img/seccion-consultasCuentasLineas-bch.png";
+    $box3-box-buton-img-src: "../img/seccion-simulacionCreditoConsumo-bch.png";
+    $box4-box-buton-img-src: "../img/seccion-consultasTarjetasCredito-bch.png";
+    $box5-box-buton-img-src: "../img/seccion-inversiones-bch.png";
+    $box6-box-buton-img-src: "../img/seccion-transferenciasFondos-bch.png";
+    $box7-box-buton-img-src: "../img/seccion-miPerfil-bch.png";
+    $box8-box-buton-img-src: "../img/seccion-pagosAvances-bch.png";
+    
+    //SEGURIDAD
+    $seguridad-bg: #194d87;
+    $seguridad-caja-titulo-bg: #053467;
+    $seguridad-boton-bg: #148DD9;
+    $seguridad-boton-co: #FFFFFF;
+    $seguridad-protegete-co: #CBD8E6;
+    
+    $circle-tooltip-bg: #31B6E8;
+    $circle-tooltip-bg-active: #B0CF4F;
+    
+    $img-movil-src: "../img/movil-bch.png";
+    $img-imac-src: "../img/imac-bch.png";
+    $img-tablet-src: "../img/tablet-bch.png";
+    $img-notebook-src: "../img/notebook-bch.png";
+    
+    //CENTRO AYUDA
+    $centro-ayuda-caja-titulo-bg: #8C9BB0;
+    
+    $centro-ayuda-contactanos-h6-co: #2163B8;
+    $centro-ayuda-contactanos-span-co: #2163B8;
+    $centro-ayuda-contactanos-ico-co: #2163B8;
+    
+    $centro-ayuda-fonobank-h6-co: #2163B8;
+    $centro-ayuda-fonobank-span-co: #2163B8;
+    $centro-ayuda-fonobank-ico-co: #2163B8;
+    
+    $centro-ayuda-twitter-h6-co: #55ABED;
+    $centro-ayuda-twitter-span-co: #55ABED;
+    $centro-ayuda-twitter-ico-co: #55ABED;
+    
+    $centro-ayuda-facebook-h6-co: #4B65A3;
+    $centro-ayuda-facebook-span-co: #4B65A3;
+    $centro-ayuda-facebook-ico-co: #4B65A3;
+
+    $centro-ayuda-nav-sec-1-bg: #E1E1E7;
+    $centro-ayuda-nav-sec-2-bg: #D9D9DF;
+    $centro-ayuda-nav-sec-1-co: #545E67;  
+    $centro-ayuda-nav-sec-2-co: #545E67;  
+
+    $centro-ayuda-nav-sec-1-active-bg: #2163B8;
+    $centro-ayuda-nav-sec-2-active-bg: #4376B9;
+    $centro-ayuda-nav-active-co: #FFFFFF;
+    
+    $acordeon-bg: #E1E1E7;
+    $acordeon-border-bg: #4B81C5;
+    $acordeon-co: #545E67;
+    $acordeon-active-co: #244F85;
+    $acordeon-body-bg: #F0F0F1;
+    
+    //FOOTER
+    $footer-bg: #003771;
+    $footer-co: #FFFFFF;
+    $footer-p-co: #B2BFCC;
+    $footer-caja-banco-bg: #0D498D;
+    $footer-caja-banco-img-src: "../img/logo-bancoChile.png";
+
+// BANCO EDWARDS  
+} @else if $banco == '1'{
+    
+    $h2-color: #236752;
+    $h3-color: #236752;
+    $h4-color: #545E67;
+    $h5-color: #545E67;
+    $h6-faq-color: #568475; 
+    $p-color: #666667;
+    
+    $menu-1-bg: #1B533F;
+    $menu-1-bg: rgba(27, 83, 63, 0.9);
+    $menu-1-bg: rgba(27, 83, 63, 1);
+    $menu-1-co: #E3E3E3;
+    
+    $navbar-bg: #338473;
+    $navbar-bg-transp: rgba(51, 132, 115, 0.9);
+    $navbar-co: #FFFFFF;
+    $navbar-active: #BCD055;
+    $navbar-img-src: "../img/logo-bancoEdwards.png";
+    
+    $navbar-img-toggle-src: "../img/menu.png";
+    $menu-mobile: #e7e9ed;
+    
+    //VIDEO
+    $playlistBanco: #466555;
+    $playlistBanco-currentvideo: #B7C561;
+    $progress-container: #1B533F;
+    $progress: #abd83f;
+    
+    $playlistBanco-transp: rgba(70, 101, 85, 0.5);
+    $playlistBanco-currentvideo-transp: rgba(183, 197, 97, 0.5);
+    
+    //FUNCIONALIDADES
+    $funcionalidades-caja-titulo-bg: #F1F1F1;
+    $funcionalidades-boton-bg: #A8BF33;
+    $funcionalidades-paginacion-bg: #348574;
+    $funcionalidades-paginacion-co: #656567;
+    
+    $box2-box-buton-img-src: "../img/seccion-consultasCuentasLineas-bed.png";
+    $box3-box-buton-img-src: "../img/seccion-simulacionCreditoConsumo-bed.png";
+    $box4-box-buton-img-src: "../img/seccion-consultasTarjetasCredito-bed.png";
+    $box5-box-buton-img-src: "../img/seccion-inversiones-bed.png";
+    $box6-box-buton-img-src: "../img/seccion-transferenciasFondos-bed.png";
+    $box7-box-buton-img-src: "../img/seccion-miPerfil-bed.png";
+    $box8-box-buton-img-src: "../img/seccion-pagosAvances-bed.png";
+    
+    //SEGURIDAD
+    $seguridad-bg: #348574;
+    $seguridad-caja-titulo-bg: #E6E6E6;
+    $seguridad-boton-bg: #BCD055;
+    $seguridad-boton-co: #1B533F;
+    $seguridad-protegete-co: #FFFFFF;
+    
+    $circle-tooltip-bg: #27AD91;
+    $circle-tooltip-bg-active: #BCD055;
+    
+    $img-movil-src: "../img/movil-bed.png";
+    $img-imac-src: "../img/imac-bed.png";
+    $img-tablet-src: "../img/tablet-bed.png";
+    $img-notebook-src: "../img/notebook-bed.png";
+    
+    //CENTRO AYUDA
+    $centro-ayuda-caja-titulo-bg: #E1E4DF;
+    
+    $centro-ayuda-contactanos-co: #666666;
+    $centro-ayuda-fonobank-co: #666666;
+    $centro-ayuda-twitter-co: #666666;
+    $centro-ayuda-facebook-co: #666666;
+    
+    $centro-ayuda-contactanos-h6-co: #666666;
+    $centro-ayuda-contactanos-span-co: #666666;
+    $centro-ayuda-contactanos-ico-co: #B5C451;
+
+    $centro-ayuda-fonobank-h6-co: #666666;
+    $centro-ayuda-fonobank-span-co: #426754;
+    $centro-ayuda-fonobank-ico-co: #416653;
+
+    $centro-ayuda-twitter-h6-co: #666666;
+    $centro-ayuda-twitter-span-co: #54739A;
+    $centro-ayuda-twitter-ico-co: #76ABEC;
+
+    $centro-ayuda-facebook-h6-co: #666666;
+    $centro-ayuda-facebook-span-co: #666666;
+    $centro-ayuda-facebook-ico-co: #5566A1;
+
+    $centro-ayuda-nav-sec-1-bg: #E1E1E7;
+    $centro-ayuda-nav-sec-2-bg: #D9D9DF;
+    $centro-ayuda-nav-sec-1-co: #545E67;  
+    $centro-ayuda-nav-sec-2-co: #545E67;  
+    
+    $centro-ayuda-nav-sec-1-bg: #EFEFEF;
+    $centro-ayuda-nav-sec-2-bg: #E7E7E7;
+    $centro-ayuda-nav-co: #666666;    
+
+    $centro-ayuda-nav-sec-1-active-bg: #568475;
+    $centro-ayuda-nav-sec-2-active-bg: #517564;
+    $centro-ayuda-nav-active-co: #FFFFFF;
+    
+    $acordeon-bg: #E7E7E7;
+    $acordeon-border-bg: #568475;
+    $acordeon-co: #585F68;
+    $acordeon-active-co: #5E7C6D;
+    $acordeon-body-bg: #F0F0F0;  
+    
+    //FOOTER
+    $footer-bg: #426754;
+    $footer-co: #FFFFFF;
+    $footer-p-co: #FFFFFF;
+    $footer-caja-banco-bg: #4A7261;
+    $footer-caja-banco-img-src: "../img/logo-bancoEdwards.png";
+
+// BANCO CREDICHILE    
+} @else if $banco == '2'{
+    
+    $h2-color: #0067AF;
+    $h3-color: #0067AF;
+    $h4-color: #00538C;
+    $h5-color: #00538C;
+    $h6-faq-color: #5777B7; 
+    $p-color: #666667;
+    
+    $menu-1-bg: #196BC1;
+    $menu-1-bg: rgba(25, 107, 193, 0.9);
+    $menu-1-bg: rgba(25, 107, 193, 1);
+    $menu-1-co: #FFFFFF;
+    
+    $navbar-bg: #FFFFFF;
+    $navbar-bg-transp: rgba(255, 255, 255, 0.9);
+    $navbar-co: #5B5B5B;
+    $navbar-active: #E2794C;
+    $navbar-img-src: "../img/logo-crediChile.png";
+    
+    $navbar-img-toggle-src: "../img/menu-CCH.png";
+    $menu-mobile: #e7e9ed;
+    
+    //VIDEO
+    $playlistBanco: #A0A0A3;
+    $playlistBanco-currentvideo: #426AB5;
+    $progress-container: #012464;
+    $progress: #abd83f;
+    
+    $playlistBanco-transp: rgba(160, 160, 163, 0.5);
+    $playlistBanco-currentvideo-transp: rgba(66, 106, 181, 0.5);
+    
+    //FUNCIONALIDADES
+    $funcionalidades-caja-titulo-bg: #EFEFEF;
+    $funcionalidades-boton-bg: #15A9F0;
+    $funcionalidades-paginacion-bg: #a6a4a5;
+    $funcionalidades-paginacion-co: #656567;
+    
+    $box2-box-buton-img-src: "../img/seccion-consultasCuentasLineas-cch.png";
+    $box3-box-buton-img-src: "../img/seccion-simulacionCreditoConsumo-cch.png";
+    $box4-box-buton-img-src: "../img/seccion-consultasTarjetasCredito-cch.png";
+    $box5-box-buton-img-src: "../img/seccion-inversiones-cch.png";
+    $box6-box-buton-img-src: "../img/seccion-transferenciasFondos-cch.png";
+    $box7-box-buton-img-src: "../img/seccion-miPerfil-cch.png";
+    $box8-box-buton-img-src: "../img/seccion-pagosAvances-cch.png";
+    
+    //SEGURIDAD
+    $seguridad-bg: #0068b0;
+    $seguridad-caja-titulo-bg: #E2E2E2;
+    $seguridad-boton-bg: #FEFEFE;
+    $seguridad-boton-co: #196BC1;
+    $seguridad-protegete-co: #FFFFFF;
+    
+    $circle-tooltip-bg: #5DA1E9;
+    $circle-tooltip-bg-active: #FF6C23;
+    
+    $img-movil-src: "../img/movil-cch.png";
+    $img-imac-src: "../img/imac-cch.png";
+    $img-tablet-src: "../img/tablet-cch.png";
+    $img-notebook-src: "../img/notebook-cch.png";
+    
+    //CENTRO AYUDA
+    $centro-ayuda-caja-titulo-bg: #E4E4E4;
+
+    $centro-ayuda-contactanos-h6-co: #406ABD;
+    $centro-ayuda-contactanos-span-co: #406ABD;
+    $centro-ayuda-contactanos-ico-co: #406ABD;
+
+    $centro-ayuda-fonobank-h6-co: #5C5C5C;
+    $centro-ayuda-fonobank-span-co: #5C5C5C;
+    $centro-ayuda-fonobank-ico-co: #5C5C5C;
+
+    $centro-ayuda-twitter-h6-co: #75AAEB;
+    $centro-ayuda-twitter-span-co: #75AAEB;
+    $centro-ayuda-twitter-ico-co: #75AAEB;
+
+    $centro-ayuda-facebook-h6-co: #5566A1;
+    $centro-ayuda-facebook-span-co: #5566A1;
+    $centro-ayuda-facebook-ico-co: #5566A1;
+
+    $centro-ayuda-nav-sec-1-bg: #E1E1E7;
+    $centro-ayuda-nav-sec-2-bg: #D9D9DF;
+    $centro-ayuda-nav-co: #545E67;   
+
+    $centro-ayuda-nav-sec-1-bg: #EFEFEF;
+    $centro-ayuda-nav-sec-2-bg: #E7E7E7;
+    $centro-ayuda-nav-sec-1-co: #575F67;  
+    $centro-ayuda-nav-sec-2-co: #406BBD;  
+
+    $centro-ayuda-nav-sec-1-active-bg: #B6B5B6;
+    $centro-ayuda-nav-sec-2-active-bg: #406BBD;
+    $centro-ayuda-nav-active-co: #FFFFFF;
+    
+    $acordeon-bg: #F2F2F2;
+    $acordeon-border-bg: #416BBD;
+    $acordeon-co: #585F68;
+    $acordeon-active-co: #416BBD;
+    $acordeon-body-bg: #FAFAFA;  
+    
+    //FOOTER
+    $footer-bg: #A4A3A4;
+    $footer-co: #FFFFFF;
+    $footer-p-co: #FFFFFF;
+    $footer-caja-banco-bg: #3B68AD;
+    $footer-caja-banco-img-src: "../img/logo-footer-crediChile.png";
+}
+
+
+
+
+// MEDIA QUERIES
+$mobile: "(max-width: 767px)";
+$tablet: "(min-width: 768px) and (max-width: 990px)";
+$mobile-y-tablet: "(max-width: 990px)";
+$desktop: "(min-width: 991px)";

@@ -1,0 +1,300 @@
+/* start oxygen */
+
+@font-face {
+    font-family: 'Oxygen-Bold';
+    src: url('../fonts/Oxygen-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Oxygen-Bold.woff') format('woff'), url('../fonts/Oxygen-Bold.ttf') format('truetype'), url('../fonts/Oxygen-Bold.svg#Oxygen-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oxygen-Light';
+    src: url('../fonts/Oxygen-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Oxygen-Light.woff') format('woff'), url('../fonts/Oxygen-Light.ttf') format('truetype'), url('../fonts/Oxygen-Light.svg#Oxygen-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oxygen-Regular';
+    src: url('../fonts/Oxygen-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Oxygen-Regular.woff') format('woff'), url('../fonts/Oxygen-Regular.ttf') format('truetype'), url('../fonts/Oxygen-Regular.svg#Oxygen-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* end oxygen */
+
+
+/* start roboto */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Regular-webfont.eot");
+    src: url("../fonts/Roboto-Regular-webfont.eot?iefix") format("eot"), url("../fonts/Roboto-Regular-webfont.woff") format("woff"), url("../fonts/Roboto-Regular-webfont.ttf") format("truetype"), url("../fonts/Roboto-Regular-webfont.svg#webfontT4D5zaO2") format("svg");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url("../fonts/roboto-bold-webfont.eot");
+    src: url("../fonts/roboto-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-bold-webfont.woff2") format("woff2"), url("../fonts/roboto-bold-webfont.woff") format("woff"), url("../fonts/roboto-bold-webfont.ttf") format("truetype"), url("../fonts/roboto-bold-webfont.svg#robotobold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoThin';
+    src: url("../fonts/roboto-thin.eot");
+    src: url("../fonts/roboto-thin.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-thin.woff2") format("woff2"), url("../fonts/roboto-thin.woff") format("woff"), url("../fonts/roboto-thin.ttf") format("truetype"), url("../fonts/roboto-thin.svg#robotothin") format("svg");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoLight';
+    src: url("../fonts/Roboto-Light-webfont.eot");
+    src: url("../fonts/Roboto-Light-webfont.eot?iefix") format("eot"), url("../fonts/Roboto-Light-webfont.woff") format("woff"), url("../fonts/Roboto-Light-webfont.ttf") format("truetype"), url("../fonts/Roboto-Light-webfont.svg#webfontT4D5zaO2") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* end roboto */
+
+
+/* start icomoon */
+
+@font-face {
+    font-family: 'icon-mcss';
+    src: url('../fonts/icon-mcss.eot?j7fa7n');
+    src: url('../fonts/icon-mcss.eot?j7fa7n#iefix') format('embedded-opentype'), url('../fonts/icon-mcss.ttf?j7fa7n') format('truetype'), url('../fonts/icon-mcss.woff?j7fa7n') format('woff'), url('../fonts/icon-mcss.svg?j7fa7n#icon-mcss') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="MCSS-"],
+[class*=" MCSS-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icon-mcss' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.MCSS-arrow-down:before {
+    content: "\e919";
+}
+
+.MCSS-arrow-arriba:before {
+    content: "\e91a";
+}
+
+.MCSS-footer-youtube:before {
+    content: "\e916";
+}
+
+.MCSS-arriba:before {
+    content: "\e900";
+}
+
+.MCSS-faq-generales:before {
+    content: "\e901";
+}
+
+.MCSS-seccion-miPerfil:before {
+    content: "\e902";
+}
+
+.MCSS-play:before {
+    content: "\e903";
+}
+
+.MCSS-ayuda-facebook:before {
+    content: "\e904";
+}
+
+.MCSS-ayuda-twitter:before {
+    content: "\e905";
+}
+
+.MCSS-ayuda-fonobank:before {
+    content: "\e906";
+}
+
+.MCSS-ayuda-contactanos:before {
+    content: "\e907";
+}
+
+.MCSS-seccion-inversiones:before {
+    content: "\e908";
+}
+
+.MCSS-seccion-pagosAvances:before {
+    content: "\e909";
+}
+
+.MCSS-seccion-transferenciaFondos:before {
+    content: "\e90a";
+}
+
+.MCSS-seccion-consultasTarjetasCredito:before {
+    content: "\e90b";
+}
+
+.MCSS-seccion-consutasCuentasLineas:before {
+    content: "\e90c";
+}
+
+.MCSS-seccion-simulacionCreditoConsumo:before {
+    content: "\e90d";
+}
+
+.MCSS-faq-paginaInicio:before {
+    content: "\e90e";
+}
+
+.MCSS-faq-inversiones:before {
+    content: "\e90f";
+}
+
+.MCSS-menu:before {
+    content: "\e910";
+}
+
+.MCSS-faq-transferenciasPagos:before {
+    content: "\e911";
+}
+
+.MCSS-faq-tarjetaCredito:before {
+    content: "\e912";
+}
+
+.MCSS-faq-cuentasLineasCredito:before {
+    content: "\e913";
+}
+
+.MCSS-faq-credito:before {
+    content: "\e914";
+}
+
+.MCSS-derecha:before {
+    content: "\e915";
+}
+
+.MCSS-abajo:before {
+    content: "\e917";
+}
+
+.MCSS-mas:before {
+    content: "\e918";
+}
+
+
+/* end icomoon */
+
+h2 {
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 400;
+    color: $h2-color;
+    line-height: 120%;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 400;
+    color: $h3-color;
+    line-height: 120%;
+    /*
+    @media #{$mobile} {
+        font-size: 23px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }*/
+}
+
+h4 {
+    font-family: 'Oxygen-Bold';
+    font-size: 25px;
+    font-weight: 700;
+    color: $h4-color;
+    line-height: 120%;
+}
+
+h5 {
+    font-family: 'Oxygen-Bold';
+    font-size: 20px;
+    font-weight: 700;
+    color: $h5-color;
+    line-height: 120%;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-left: 5px;
+    /*
+    @media #{$mobile-y-tablet} {
+        text-align: center;
+        margin-top: 0;
+    }
+    @media #{$tablet} {
+        margin-bottom: 30px;
+    }
+    @media #{$mobile} {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    */
+}
+
+h5.detalle{
+    font-size: 18px;
+}
+
+h6 {
+    font-family: 'Oxygen-Bold';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 120%;
+    color: $h6-faq-color;
+    
+    @media #{$tablet} {
+        font-size: 16px;
+    }
+    @media #{$mobile} {
+        font-size: 14px;
+        //margin-top: 0;
+    }
+    
+}
+
+h6.faq {
+    /*color: $h6-faq-color;*/
+    position: absolute;
+    top: 10px;
+    right: 0;
+    
+    @media #{$mobile} {
+        font-size: 12px;
+    }
+}
+
+p {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    /*color: $p-color;*/
+    line-height: 120%;
+}
+
+p.detalle{
+    text-align: justify;
+}
+
+img.detalle{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,615 @@
+#centro-de-ayuda {
+    min-height: 300px;
+    padding-bottom: 60px;
+    .container {
+        @media #{$tablet} {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    @media #{$tablet} {
+        padding: 0 0 60px 0;
+    }
+    @media #{$mobile} {
+        padding: 0 0 60px 0;
+        .container {
+            padding: 0px;
+            .col-md-12 {
+                padding: 0px;
+            }
+        }
+    }
+    h3 {
+        color: $h3-color;
+    }
+    .section-1,
+    .section-2 {
+        display: inline-block;
+        width: 100%;
+    }
+    .section-1 {
+        .left-side {
+            background-color: $centro-ayuda-caja-titulo-bg;
+            width: 23%;
+            float: left;
+            height: auto;
+            text-align: center;
+            padding: 70px 1% 30px 1%;
+            @media #{$mobile-y-tablet} {
+                width: 100%;
+                float: none;
+                display: inline-block;
+                padding: 10px 1% 15px 1%;
+            }
+        }
+        .right-side {
+            float: left;
+            width: 77%;
+            padding: 80px 0px 0px 0px;
+            @media #{$mobile-y-tablet} {
+                width: 100%;
+                float: none;
+                display: inline-block;
+                padding-top: 30px;
+                border-bottom: 1px solid #ccc;
+            }
+            @media #{$mobile} {
+                padding-top: 0px;
+            }
+            a {
+                text-decoration: none;
+            }
+            ul {
+                padding: 0;
+                margin: 0 auto;
+                display: table;
+                @media #{$tablet} {
+                    padding: 0 3% 0 2%;
+                }
+                @media #{$mobile} {
+                    display: inline-block;
+                    width: 100%;
+                    padding-top: 20px;
+                    padding-bottom: 11px;
+                }
+            }
+            li {
+                display: table-cell;
+                width: auto;
+                position: relative;
+                vertical-align: top;
+                @media #{$mobile} {
+                    display: inline-block;
+                    min-height: 55px;
+                    margin: 0;
+                    padding: 9px 30px 9px 30px !important;
+                }
+            }
+            li.section-1 {
+                width: 31%;
+                padding-left: 5%;
+                padding-right: 1%;
+                @media #{$desktop} and (max-width: 1195px) {
+                    width: 30%;
+                    padding-left: 2%;
+                }
+                @media #{$tablet} {
+                    width: 25%;
+                    padding-left: 0%;
+                    padding-right: 0%;
+                }
+                @media #{$mobile} {
+                    width: 100%;
+                }
+                h6 {
+                    color: $centro-ayuda-contactanos-h6-co;
+                }
+                span {
+                    color: $centro-ayuda-contactanos-span-co;
+                    @media #{$tablet} {
+                        font-size: 13px;
+                        line-height: 120%;
+                        display: block;
+                    }
+                    @media #{$mobile} {
+                        font-size: 11px;
+                        line-height: 110%;
+                        display: block;
+                    }
+                }
+                i {
+                    color: $centro-ayuda-contactanos-ico-co;
+                    @media #{$mobile} {
+                        font-size: 40px;
+                        position: relative;
+                        top: 0px;
+                    }
+                }
+                .text {
+                    @media #{$tablet} {
+                        width: calc(100% - 82px);
+                    }
+                }
+                .icono {
+                    @media #{$tablet} {
+                        width: 53px;
+                    }
+                    @media #{$mobile} {
+                        float: right;
+                    }
+                }
+            }
+            li.section-2 {
+                padding-left: 3%;
+                padding-right: 2%;
+                width: 27%;
+                @media #{$desktop} and (max-width: 1195px) {
+                    width: 25%;
+                    padding-left: 2%;
+                    padding-right: 1%;
+                }
+                @media #{$tablet} {
+                    width: 25%;
+                    padding-left: 2%;
+                    padding-right: 0%;
+                    padding-bottom: 47px;
+                }
+                @media #{$mobile} {
+                    width: 100%;
+                }
+                h6 {
+                    color: $centro-ayuda-fonobank-h6-co;
+                    @media #{$tablet} {
+                        font-size: 14px;
+                        line-height: 140%;
+                    }
+                }
+                span {
+                    color: $centro-ayuda-fonobank-span-co;
+                    @media #{$desktop} and (max-width: 1200px) {
+                        font-size: 13.5px;
+                    }
+                    @media #{$tablet} {
+                        font-size: 15.5px;
+                        margin-top: 7px;
+                        display: block;
+                    }
+                    @media #{$mobile} {
+                        font-size: 11px;
+                        line-height: 110%;
+                        display: block;
+                    }
+                }
+                i {
+                    color: $centro-ayuda-fonobank-ico-co;
+                    @media #{$mobile} {
+                        font-size: 40px;
+                        position: relative;
+                        top: 0px;
+                    }
+                }
+                .text {
+                    @media #{$tablet} {
+                        width: calc(100% - 68px);
+                    }
+                    @media #{$mobile} {}
+                }
+                .icono {
+                    @media #{$tablet} {
+                        width: 56px;
+                    }
+                    @media #{$mobile} {}
+                }
+            }
+            li.section-3 {
+                padding-left: 2.5%;
+                padding-right: 2%;
+                width: 23%;
+                @media #{$desktop} and (max-width: 1195px) {
+                    width: 20%;
+                    padding-left: 2%;
+                    padding-right: 1%;
+                }
+                @media #{$tablet} {
+                    width: 25%;
+                    padding-left: 3%;
+                    padding-right: 0%;
+                }
+                @media #{$mobile} {
+                    width: 100%;
+                }
+                h6 {
+                    color: $centro-ayuda-twitter-h6-co;
+                }
+                span {
+                    color: $centro-ayuda-twitter-span-co;
+                    @media #{$tablet} {
+                        font-size: 12px;
+                        margin-top: 8px;
+                        display: block;
+                    }
+                    @media #{$mobile} {
+                        font-size: 11px;
+                        line-height: 110%;
+                        display: block;
+                    }
+                }
+                i {
+                    color: $centro-ayuda-twitter-ico-co;
+                    @media #{$mobile} {
+                        font-size: 40px;
+                        position: relative;
+                        top: 0px;
+                    }
+                }
+                .text {
+                    @media #{$tablet} {
+                        width: calc(100% - 66px);
+                    }
+                    @media #{$mobile} {}
+                }
+            }
+            li.section-4 {
+                padding-left: 1%;
+                width: 19%;
+                @media #{$desktop} and (max-width: 1195px) {
+                    width: 25%;
+                    padding-left: 2%;
+                    padding-right: 1%;
+                }
+                @media #{$tablet} {
+                    width: 25%;
+                    padding-left: 4.5%;
+                    padding-right: 0%;
+                }
+                @media #{$mobile} {
+                    width: 100%;
+                }
+                h6 {
+                    color: $centro-ayuda-facebook-h6-co;
+                }
+                span {
+                    color: $centro-ayuda-facebook-span-co;
+                    @media #{$mobile} {
+                        font-size: 11px;
+                        line-height: 110%;
+                        display: block;
+                    }
+                }
+                i {
+                    color: $centro-ayuda-facebook-ico-co;
+                    @media #{$mobile} {
+                        font-size: 40px;
+                        position: relative;
+                        top: 0px;
+                    }
+                }
+            }
+            ul div {
+                display: inline-block;
+                vertical-align: top;
+            }
+            ul div.text {
+                width: calc(100% - 55px);
+                @media #{$mobile} {
+                    float: left;
+                    width: calc(100% - 41px);
+                }
+            }
+            ul div.icono {
+                width: 51px;
+                @media #{$mobile} {
+                    float: right;
+                    width: 41px;
+                }
+            }
+            ul .section-1 .icono,
+            ul .section-2 .icono,
+            ul .section-3 .icono,
+            ul .section-4 .icono {
+                position: relative;
+                top: 8px;
+                right: 1px;
+                @media #{$mobile} {
+                    top: 0;
+                    right: 0;
+                }
+            }
+            ul .section-3 .icono,
+            ul .section-4 .icono {
+                right: -5px;
+                @media #{$mobile} {
+                    top: 0;
+                    right: 0;
+                }
+            }
+            li:after {
+                content: "";
+                position: absolute;
+                top: 12%;
+                right: 0;
+                width: 1px;
+                height: 65px;
+                background-color: #B2BFCC;
+                @media #{$mobile-y-tablet} {
+                    position: inherit;
+                    width: 0;
+                    height: 0;
+                    background-color: none;
+                }
+            }
+            li:last-of-type:after {
+                background-color: white;
+                width: 0;
+                height: 0;
+            }
+            li span {
+                font-family: 'Oxygen-Bold';
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 120%;
+            }
+            li i {
+                font-size: 50px;
+            }
+            h6 {
+                margin-bottom: 0;
+            }
+            .section-1 div {
+                color: #2163B8;
+            }
+            .section-2 div {
+                color: #2163B8;
+            }
+            .section-2 span {
+                font-family: 'Oxygen-Regular';
+                font-size: 16.9px;
+            }
+            .section-3 div {
+                color: #55ABED;
+            }
+            .section-3 span {
+                font-family: 'Oxygen-Regular';
+            }
+            .section-4 div {
+                color: #4B65A3;
+            }
+        }
+    }
+    .section-2 {
+        margin-top: 50px;
+        @media #{$tablet} {
+            padding: 0 1.2% 60px 1.2%;
+        }
+        @media #{$mobile} {
+            margin-top: 33px;
+            padding: 0 4.2% 60px 3.2%;
+        }
+        @media #{$mobile-y-tablet} {
+            h6.faq {
+                position: absolute;
+                top: -44px;
+                left: 0px;
+                padding-left: 17px;
+                color: #fff;
+                cursor: pointer;
+                width: 86%;
+            }
+        }
+        @media #{$mobile} {
+            h6.faq {
+                font-size: 12px;
+            }
+        }
+        .preguntas-frecuentes {
+            width: 310px;
+            display: inline-block;
+            vertical-align: top;
+            float: left;
+            margin-top: 10px;
+            @media #{$mobile-y-tablet} {
+                width: 100%;
+                margin-top: 0;
+            }
+            .drop-zone {
+                position: relative;
+                .select-boton {
+                    @media #{$mobile-y-tablet} {
+                        background-color: $centro-ayuda-nav-sec-2-active-bg;
+                        border-radius: 5px;
+                        height: 45px;
+                    }
+                }
+                .arrow-section {
+                    display: none;
+                    @media #{$mobile-y-tablet} {
+                        display: block;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        height: 100%;
+                        color: white;
+                        font-size: 11px;
+                        width: 50px;
+                        background-color: $centro-ayuda-nav-sec-1-active-bg;
+                        border-top-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                    }
+                    i {
+                        position: absolute;
+                        top: 17px;
+                        right: 14px;
+                    }
+                }
+                .select-body {
+                    @media #{$mobile-y-tablet} {
+                        display: none;
+                        position: absolute;
+                        width: 100%;
+                        z-index: 99;
+                        top: 45px;
+                    }
+                }
+                .select-body.open {
+                    display: block;
+                }
+            }
+        }
+        ul {
+            width: 27.5%;
+            width: 310px;
+            display: inline-block;
+            vertical-align: top;
+            float: left;
+            @media #{$desktop} {
+                display: inline-block;
+                position: relative;
+            }
+            @media #{$mobile-y-tablet} {
+                width: 100%;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+        }
+        li {
+            display: block;
+            float: none;
+            font-family: 'RobotoBold';
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 120%;
+            color: #545E67;
+            border-radius: 3px;
+            margin-bottom: 2px;
+            @media #{$mobile-y-tablet} {
+                margin-bottom: 0;
+                font-size: 11px;
+            }
+        }
+        li.active a {
+            color: $centro-ayuda-nav-active-co;
+            background-color: #2163B8;
+        }
+        li a {
+            display: table;
+            height: 64px;
+            padding: 0;
+            color: $centro-ayuda-nav-sec-1-co;
+            @media #{$mobile-y-tablet} {
+                width: 100%;
+                height: 30px;
+                border: none;
+                border-bottom: none;
+            }
+        }
+        li a div {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        li div:first-of-type {
+            width: 246px;
+            height: 100%;
+            padding-left: 15px;
+            padding-right: 10px;
+            background-color: $centro-ayuda-nav-sec-1-bg;
+        }
+        li.active div:first-of-type {
+            background-color: $centro-ayuda-nav-sec-1-active-bg;
+        }
+        li div:last-of-type {
+            width: 64px;
+            height: 100%;
+            text-align: center;
+            background-color: $centro-ayuda-nav-sec-2-bg;
+        }
+        li div+div {
+            @media #{$mobile-y-tablet} {
+                display: none;
+            }
+        }
+        li.active div:last-of-type {
+            background-color: $centro-ayuda-nav-sec-2-active-bg;
+        }
+        li div:last-of-type i {
+            font-size: 35px;
+            color: $centro-ayuda-nav-sec-2-co;
+        }
+        li div:last-of-type i.MCSS-arrow-down {
+            @media #{$desktop} {
+                display: none;
+            }
+        }
+        li.active div:last-of-type i {
+            color: white;
+        }
+        .tab-contenido {
+            width: calc( 100% - 390px);
+            display: inline-block;
+            vertical-align: top;
+            float: right;
+            border-top: 1px solid #E1E1E7;
+            padding-top: 54px;
+            position: relative;
+            @media #{$mobile-y-tablet} {
+                width: 100%;
+                padding-top: 20px;
+            }
+        }
+    }
+    .panel-group .panel+.panel {
+        margin-top: 15px;
+    }
+    .panel-group .panel-default:first-of-type {
+        margin-top: 0;
+    }
+    .panel-default {
+        margin-bottom: 0;
+        border-radius: 0;
+        border: none;
+        a {
+            text-decoration: none;
+            width: 100%;
+            display: block;
+            min-height: 55px;
+            padding: 15px;
+            color: $acordeon-active-co;
+        }
+        span {
+            float: left;
+            width: calc( 100% - 20px);
+            display: block;
+        }
+        a.collapsed {
+            color: $acordeon-co;
+        }
+        >.panel-heading {
+            color: #333;
+            background-color: $acordeon-bg;
+            border: 0;
+            border-left: 5px solid $acordeon-border-bg;
+            height: 55px;
+            border-radius: 0;
+            padding: 0;
+            h4 {
+                font-family: 'Roboto';
+                font-weight: 400;
+                line-height: 120%;
+                font-size: 16px;
+                @media #{$mobile} {
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+    .panel-body {
+        background-color: $acordeon-body-bg;
+    }
+    .nav-tabs {
+        border-bottom: none;
+    }
+    .nav-tabs>li>a {
+        margin-right: 0;
+    }
+}

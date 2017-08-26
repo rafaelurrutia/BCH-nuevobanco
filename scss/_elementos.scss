@@ -1,0 +1,49 @@
+.btn {
+    position: relative;
+}
+
+.btn-orange {
+    background-color: #ee5f00;
+    color: #fff;
+}
+
+.btn-secure {
+    padding-left: 50px;
+}
+
+.btn-secure:before {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    content: '';
+    display: block;
+    width: 25px;
+    height: 15px;
+    border-right: 1px solid #d65500;
+//    background-image: url(../img/icon-candado.png);
+    background-repeat: no-repeat;
+//    background-position: left center;
+    
+    background-image: url(../img/sprite_ng.png);
+    background-position: -121px -1px;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.no-padding-tablet {
+    @media #{$tablet} {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.txt-show{
+    display: block;
+}
+
+.txt-hide{
+    display: none;
+}
